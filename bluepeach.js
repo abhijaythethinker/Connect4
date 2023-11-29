@@ -14,7 +14,7 @@ window.onload = function() {
     let back = document.querySelector(".back")
     back.addEventListener('click', returnSelector)
     function returnSelector() {
-    location.replace("./selector.html")
+    location.replace("./index.html")
 }
 }
 
