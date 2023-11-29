@@ -1,0 +1,98 @@
+body {
+    background-color: purple;
+}
+
+#first {
+    color: white;
+    background-color: magenta;
+    text-align: center;
+    padding-top: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+}
+
+#hollowOne {
+    color: white;
+    background-color: magenta;
+    text-align: center;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    top: 48.5%;
+    left: 40%;
+    transform: translate(-40%, -48.5%);
+    opacity: 40%;
+}
+
+#hollowTwo {
+    color: white;
+    background-color: magenta;
+    text-align: center;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    top: 48.5%;
+    left: 60%;
+    transform: translate(-60%, -48.5%);
+    opacity: 40%;
+}
+
+#Next {
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 40px;
+}
+
+#Select {
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 40px;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttonOne {
+    padding: 5px;
+}
+
+.buttonTwo {
+    padding: 5px;
+}
+
+#Next:hover {
+    background-color: #F96DEA;
+}
+
+#Select:hover {
+    background-color: #F96DEA;
+}
+
